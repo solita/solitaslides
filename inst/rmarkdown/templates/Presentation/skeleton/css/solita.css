@@ -1,0 +1,564 @@
+body {
+  font-family: 'Century Gothic bold';
+  color: #E6E6E6;
+  background-color: #282828;
+}
+
+p,ol,ul {
+  font-family: 'Arial';
+  font-size:21px;
+}
+
+a {
+  color: #DC1E32;
+}
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Century Gothic bold';
+  color: #E6E6E6;
+  margin-bottom: 4%;
+}
+
+.pull-left {
+  float: left;
+  width: 47%;
+}
+.pull-right {
+  float: right;
+  width: 47%;
+}
+
+.solita-logomark-starter{
+  background-image: url(../images/LOGOMARK/LOGOMARK/SVG/LOGOMARK_NEGA_RGB.svg);
+  background-size: 120px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 7.5%;
+  left: 7.5%;
+}
+
+.solita-logomark{
+  background-image: url(../images/LOGOMARK/LOGOMARK/SVG/LOGOMARK_NEGA_RGB.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -3%;
+  left: 95%;
+}
+
+.solita-logomark-black{
+  background-image: url(../images/LOGOMARK/LOGOMARK/SVG/LOGOMARK_BLACK_RGB.svg);
+  background-size: 40px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -3%;
+  left: 95%;
+}
+
+.solita-text{
+  background-image: url(../images/LOGOTYPE/SVG/SOLITA_NEGA_RGB.svg);
+  background-size: 130px;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 70%;
+  transform-origin: 0 0;
+  transform: rotate(90deg);
+  left: 98%;
+}
+
+.header-large{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  position:absolute;
+  font-size: 110px;
+  line-height: 90px;
+  color: #E6E6E6;
+  top:45%;
+  padding-right:25%;
+}
+
+.profile-pic {
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  max-width: 35%;
+  max-height: 60%;
+  overflow: hidden;
+  bottom: 28%;
+  left: 58%;
+  border-radius:100%;
+}
+
+.profile-pic img {
+    margin-top: -40%;
+    margin-right:-30%;
+    margin-bottom:-30%;
+    margin-left:-80%;
+}
+
+.solita-hex{
+  background-size: cover;
+  position: absolute;
+  height: 350px;
+  width: 288px;
+  bottom: 20%;
+  left: 68%;
+}
+
+.solita-hex img{
+    width: 100%;
+    height: 100%;
+}
+
+.wood{
+    background-image: url(../images/Glowing_tree.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 50%;
+    overflow: hidden;
+    bottom:0%;
+    left:0%;
+}
+
+.ggplot-figure{
+    background-image: url(../images/ggplot-figure.jpeg);
+    background-size: 880px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top:5%;
+    left:0%;
+}
+
+.ggplot-text{
+  padding-top:40%;
+}
+
+.red-bar{
+  background-color:#DC1E32;
+  position:absolute;
+  height:30%;
+  width:80%;
+  bottom:0%;
+  left:5%;
+}
+
+.white-bar1{
+  background-color: #E6E6E6;
+  position:absolute;
+  height:20%;
+  width:0.5%;
+  bottom:5%;
+  left:25%;
+  border-radius: 10px;
+}
+
+.white-bar2{
+  background-color:#E6E6E6;
+  position:absolute;
+  height:20%;
+  width:0.5%;
+  bottom:5%;
+  left:45%;
+  border-radius: 10px;
+}
+
+.white-bar3{
+  background-color:#E6E6E6;
+  position:absolute;
+  height:20%;
+  width:0.5%;
+  bottom:5%;
+  left:65%;
+  border-radius: 10px;
+}
+
+.title-bar1{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 75%;
+  left:7.5%;
+  right:77.5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.text-bar1{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 75%;
+  left:7.5%;
+  right:77.5%;
+}
+
+.title-bar2{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 75%;
+  left:27.5%;
+  right:57.5%;
+  padding-top: 5%;
+  padding-bottom: 2%;
+}
+
+.text-bar2-alt a{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 77%;
+  left:27.5%;
+  right:57.5%;
+}
+
+.text-bar2{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  text-align: center;
+  font-size: 22px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 77%;
+  left:27.5%;
+  right:57.5%;
+}
+
+.title-bar3{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 76%;
+  left:47.5%;
+  right:37.5%;
+}
+
+.text-bar3{
+  font-family: 'Century Gothic bold';
+  font-size: 22px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 75%;
+  left:47.5%;
+  right:37.5%;
+}
+
+.text-bar3-alt{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 77%;
+  left:47.5%;
+  right:37.5%;
+  padding-top: 5%;
+}
+
+
+.title-bar4{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  font-size: 55px;
+  text-align: center;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 76%;
+  left:67.5%;
+  right:17.5%;
+}
+
+.text-bar4{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  color: #E6E6E6;
+  position:absolute;
+  bottom:5%;
+  top: 77%;
+  left:67.5%;
+  right:17.5%;
+  padding-top: 5%;
+}
+
+.middle-bar{
+  background-color:#DC1E32;
+  position:absolute;
+  height:60%;
+  width:8%;
+  bottom:25%;
+  left:46%;
+}
+
+.top-number{
+  font-family: 'Century Gothic bold';
+  position: absolute;
+  font-weight: bold;
+  font-size: 60px;
+  color: #E6E6E6;
+  bottom:70%;
+  left:48%;
+}
+
+.middle-number{
+  font-family: 'Century Gothic bold';
+  position: absolute;
+  font-weight: bold;
+  font-size: 60px;
+  color: #E6E6E6;
+  bottom:50%;
+  left:48%;
+}
+
+.bottom-number{
+  font-family: 'Century Gothic bold';
+  position: absolute;
+  font-weight: bold;
+  font-size: 60px;
+  color: #E6E6E6;
+  bottom:30%;
+  left:48%;
+}
+
+.text-bar{
+  font-family: 'Century Gothic bold';
+  font-size: 21px;
+  color: #DC1E32;
+  position:absolute;
+  bottom:25%;
+  top: 15%;
+  left:67.5%;
+  right:7%;
+}
+
+
+.fireflies{        
+    width: 20%;
+    height: 20%;
+    overflow: hidden;
+    bottom:0%;
+    left:0%;
+}
+
+.fireflies img{
+    width: 80%;
+    height: 100%;
+    position:absolute;
+    margin: 0px 0px 0px -250px;
+    bottom:0%;
+    left:0%;
+}
+
+.solita-red{
+  color:#DC1E32;
+}
+
+.solita-black{
+  color:#282828;
+}
+
+.solita-grey1{
+  color:#E6E6E6;
+}
+
+.solita-grey2{
+  color:#B4B4B4;
+}
+
+.solita-grey3{
+  color:#828282;
+}
+
+.solita-grey4{
+  color:#505050;
+}
+
+.remark-slide-number {
+  font-size: 14pt;
+  margin-bottom: -11.6px;
+  margin-right: 5px;
+  color: #FFFFFF; /* white */
+  opacity: 0; /* default: 0.5 */
+}
+
+.header-large2{
+  font-family: 'Century Gothic bold';
+  font-weight: bold;
+  font-size: 44px;
+  color: #DC1E32;
+  letter-spacing: -1px;
+  line-height: 1;
+}
+
+.padding-right-12{
+  padding-right: 12%;
+}
+
+.padding-right-25{
+  padding-right: 25%;
+}
+
+.padding-right-34{
+  padding-right: 34%;
+}
+
+.padding-right-45{
+  padding-right: 45%;
+}
+
+.padding-right-55{
+  padding-right: 55%;
+}
+
+.padding-right-60{
+  padding-right: 60%;
+}
+
+.padding-right-65{
+  padding-right: 65%;
+}
+
+.padding-left-70{
+  padding-left: 80%;
+  padding-top: 10%;
+}
+
+.padding-left-65{
+  padding-left: 65%;
+}
+
+.padding-left-62{
+  padding-left: 62%;
+}
+
+.padding-left-60{
+  padding-left: 60%;
+}
+
+.padding-left-55{
+  padding-left: 55%;
+}
+
+
+
+.digraph{
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: -10%;
+  left: 58%;
+}
+
+
+
+
+.full-size-image{
+    background-image:cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    bottom:0%;
+    left:0%;
+}
+
+.full-size-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-half-image{
+    background-image:cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    bottom:0%;
+    left:45%;
+    overflow: hidden;
+    max-width:100%;
+    text-indent: -40%;
+}
+
+.right-half-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.right-half-margin{
+  padding-right: 60%;
+}
+
+
+.left-half-image{
+    background-image:cover;
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    bottom:0%;
+    right:45%;
+    overflow: hidden;
+    max-width:100%;
+    text-indent: 45%;
+}
+
+.left-half-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.theme-red-white {
+  color: #DC1E32;
+  background-color: #E6E6E6;
+}
+
+.cropped {
+  background-position: top center;
+  background-repeat: no-repeat;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  bottom: 0%;
+  left: 0%;
+}
