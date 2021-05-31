@@ -375,9 +375,10 @@ class: solita-black, ggplot-text
 ```{r,echo=FALSE, message=FALSE, include=FALSE}
 require(RColorBrewer)
 library(ggplot2)
-library(extrafont)
-# font_import()
-fonts()
+library(showtext)
+# If you have run this document before, you can remove the font_add()
+font_add("Century Gothic",regular = "fonts/gothic.ttf",bold = "fonts/gothicb.ttf")
+showtext_auto()
 mtcars$Gear<-as.factor(mtcars$gear)
 
 ggplot(mtcars, aes(cyl,mpg))+
