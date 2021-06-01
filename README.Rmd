@@ -39,7 +39,9 @@ This is a package to create Solita branded slides. Some of the key features are:
 
 ## Installing Solita Slides
 
-* In order to run Solita slides, you will need [R]() and [Rstudio]()
+* In order to run Solita slides, you will need [R](https://cran.r-project.org/) and [Rstudio](https://www.rstudio.com/products/rstudio/)
+* Install devtools if you do not have it already (remove the comment and run)
+* Install the package from github
 
 ``` r
 # install.packages("devtools")

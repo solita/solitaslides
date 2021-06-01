@@ -386,7 +386,7 @@ ggplot(mtcars, aes(cyl,mpg))+
   labs(x = "Cylinders",
        y = "Miles per\ngallon",
        title = "Relationship between MPG and cylinder count")+ 
-  scale_fill_manual(name = "Utbildningsnivå",                    
+  scale_fill_manual(name = "",                    
                     values = brewer.pal(n = 3,
                                         name = "Dark2"))+
   scale_y_continuous(limits = c(0,40),breaks = seq(0,40,10))+

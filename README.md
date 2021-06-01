@@ -32,7 +32,12 @@ Xie is the king of Rmarkdown.
 
 ## Installing Solita Slides
 
--   In order to run Solita slides, you will need [R]() and [Rstudio]()
+-   In order to run Solita slides, you will need
+    [R](https://cran.r-project.org/) and
+    [Rstudio](https://www.rstudio.com/products/rstudio/)
+-   Install devtools if you do not have it already (remove the comment
+    and run)
+-   Install the package from github
 
 ``` r
 # install.packages("devtools")
@@ -88,4 +93,4 @@ Send me an email: <jakob.johannesson@solita.fi>
 
 Or reach out to me on Slack
 
-Last updated 2021-05-31
+Last updated 2021-06-01
