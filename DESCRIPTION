@@ -1,7 +1,7 @@
 Package: solitaslides
 Type: Package
 Title: Create Solita branded presentations
-Version: 0.1.0
+Version: 0.1.1
 Author: Jakob Johannesson
 Maintainer: Jakob Johannesson <jakob.johannesson@solita.fi>
 Description: This package is using remark.js and the same framework that the 
@@ -19,9 +19,7 @@ Imports:
     RColorBrewer,
     ggplot2,
     showtext
-Suggests: rstudioapi
-    rsvg,
-    DiagrammeRsvg
+Suggests: rstudioapi, rsvg, DiagrammeRsvg
 VignetteBuilder: knitr
 License: MIT
 Encoding: UTF-8
