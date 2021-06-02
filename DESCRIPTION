@@ -18,10 +18,10 @@ Imports:
     stringr,
     RColorBrewer,
     ggplot2,
-    rsvg,
-    DiagrammeRsvg,
     showtext
 Suggests: rstudioapi
+    rsvg,
+    DiagrammeRsvg
 VignetteBuilder: knitr
 License: MIT
 Encoding: UTF-8
