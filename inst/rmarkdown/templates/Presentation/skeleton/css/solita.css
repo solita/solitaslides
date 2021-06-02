@@ -120,6 +120,24 @@ h1,h2,h3,h4,h5,h6 {
     height: 100%;
 }
 
+
+.globe{
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    bottom:0%;
+    left:50%;
+    text-indent: -18%;
+}
+
+.globe img{
+  height:100%;
+  width:100%;
+}
+
 .wood{
     background-image: url(../images/Glowing_tree.jpg);
     background-size: cover;
