@@ -1,0 +1,12 @@
+name: solita_slides
+title: Solita Slides
+username: jakob
+account: jakob
+server: rsc.data-azure.solitaonline.com
+hostUrl: http://rsc.data-azure.solitaonline.com/__api__
+appId: 9
+bundleId: 34
+url: http://rsc.data-azure.solitaonline.com/content/1d18fa11-b362-40ec-a096-fba3b0eed504/
+when: 1632399195.5504
+asMultiple: FALSE
+asStatic: TRUE

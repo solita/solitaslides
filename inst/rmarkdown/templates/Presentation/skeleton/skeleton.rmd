@@ -549,8 +549,8 @@ exclude: true
 * It will be screaming with errors since you have html iFrames that cannot be printed to html, therefore we will need to use error=TRUE. Eval is set to FALSE since it is heavy for the computer to run this.
 
 ```{bash, eval=FALSE}
-`npm bin`/decktape remark <PATH TO YOUR HTML PRESENTATION> output.pdf --chrome-arg=--disable-web-security --size 1600x900
+`npm bin`/decktape remark <PATH TO YOUR HTML PRESENTATION> output.pdf --chrome-arg=--disable-web-security --size 3840x2160
 
 # Example
-`npm bin`/decktape remark file:////Users/Presentation/skeleton/skeleton.html solitaslides.pdf --chrome-arg=--disable-web-security --size 1600x900
+`npm bin`/decktape remark file:////Users/Presentation/skeleton/skeleton.html solitaslides.pdf --chrome-arg=--disable-web-security --size 3840x2160
 ```

@@ -52,7 +52,13 @@ following:
 <img src="man/figures/started.svg" align="center" width="800"/>
 
 Give your slides a name and then start the rmarkdown file and press
-“knit”.
+“knit”. To get more efficient with the knitting you can use the infinite
+moon reader as well, just like you would in Xaringan. Using this setting
+you only need to press “CMD+S” in order for the slides to update.
+
+``` r
+solitaslides::inf_mr()
+```
 
 ### Links - Great content
 
@@ -71,7 +77,8 @@ Give your slides a name and then start the rmarkdown file and press
 
 -   There is currently no great way to export html to powerpoint
 -   Programming your slides might not be suitable for everyone
--   Creating new templates is somewhat time consuming
+-   Creating new templates is somewhat time consuming (but worth it and
+    fun!)
 
 ### Example
 
@@ -93,4 +100,4 @@ Send me an email: <jakob.johannesson@solita.fi>
 
 Or reach out to me on Slack
 
-Last updated 2021-06-01
+Last updated 2021-10-12
